@@ -12,6 +12,10 @@ primers y de slices
 
 import os
 
+path = input("Introduce el camino hacia el directorio base del cual agrupas los fqs: ")
+
+os.chdir(path)
+
 #Generamos la lista de carpetas que tienen los fqs
 everything = os.listdir()
 dirs = []
